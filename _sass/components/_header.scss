@@ -2,8 +2,8 @@
 
 .header {
   @include clearfix;
-  background: {
-    color: $brown;
+  _::-webkit-full-page-media, _:future, :root & {
+     background-color: $brown;
   }
 
   .site-title {
