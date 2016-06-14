@@ -1,0 +1,48 @@
+@import "main_navigation";
+
+.header {
+  @include clearfix;
+  background: {
+    color: $brown;
+  }
+
+  .site-title {
+    @include clearfix;
+    display: block;
+    padding: $large-spacing 0 0 $large-spacing;
+  }
+
+  .profile-image {
+    width: 26px;
+    height: 26px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 6px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+
+  .site-description {
+    padding: 0 $large-spacing $large-spacing $large-spacing;
+    line-height: 1.25;
+    font-family: DroidSerifItalic;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+  }
+
+
+  h1 {
+    @include no-underline;
+    padding: 0;
+    font-family: $nevis;
+    color: $cream;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 34px;
+
+    span {
+      color: $med-gray;
+    }
+  }
+}

@@ -1,0 +1,125 @@
+@mixin active-page {
+  background: transparent;
+
+  &:after {
+    @include triangle(22px, $cream, up);
+    content: "";
+    position: relative;
+    top: -30px;
+  }
+
+  a {
+    color: $orange;
+  }
+}
+
+.main-navigation {
+  @include row;
+  @include clearfix;
+  clear: both;
+  border-top: solid 2px $cream;
+  border-bottom: solid 2px $orange;
+  background: {
+    color: $cream;
+  }
+
+  li {
+    position: relative;
+    width: 20%;
+    display: block;
+    float: left;
+    text-align: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    &:last-child {
+      @include omega;
+    }
+
+    a {
+      @include fill-parent;
+      display: inline-block;
+      padding: $small-spacing 0;
+      font-size: 14px;
+      color: $brown;
+    }
+
+    i {
+      font-size: $base-font-size * 2;
+      display: block;
+      padding-bottom: 6px;
+    }
+  }
+
+  %active-tab {
+    background: $orange;
+
+    a {
+      color: $cream;
+    }
+  }
+
+  .designs-controller & {
+    .design {
+      @extend %active-tab;
+    }
+  }
+
+  .posts-controller & {
+    .blog {
+      @extend %active-tab;
+    }
+  }
+
+  .music-controller & {
+    .music {
+      @extend %active-tab;
+    }
+  }
+
+  @include media($large-screen-up) {
+    @include span-columns(8);
+    @include omega;
+    margin-bottom: 0;
+    background: transparent;
+    border: none;
+    font-family: $bebas-neue;
+
+    .fa {
+      display: none;
+    }
+
+    li {
+      a {
+        @include fill-parent;
+        padding-top: 5px;
+        display: block;
+        line-height: $header-height;
+        vertical-align: middle;
+        height: $header-height;
+        padding: 5px 0 0 0;
+        color: $white;
+        font-size: 23px;
+      }
+    }
+
+    .designs-controller & {
+      .design {
+        @include active-page;
+      }
+    }
+
+    .posts-controller & {
+      .blog {
+        @include active-page;
+      }
+    }
+
+    .music-controller & {
+      .music {
+        @include active-page;
+      }
+    }
+  }
+}

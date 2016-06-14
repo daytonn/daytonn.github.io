@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "syntax-highlighting";
+@import "bourbon/bourbon";
+// Neat Overrides
+// Neat Breakpoints
+$medium-screen: 600px;
+$large-screen: 900px;
+
+$medium-screen-up: new-breakpoint(min-width $medium-screen 12);
+$large-screen-up: new-breakpoint(min-width $large-screen 12);
+@import "neat/neat";
+@import "base/base";
+
+@import "components/header";
+@import "components/contact";
+@import "components/footer";
+
+@import "resources/posts";

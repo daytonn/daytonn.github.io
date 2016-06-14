@@ -1,0 +1,76 @@
+@mixin post-date {
+  font-family: $helvetica;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: $orange;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 0;
+  text-shadow: $base-text-shadow;
+
+  .month {
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  .day {
+    font-size: 20px;
+  }
+
+  .year {
+    display: none;
+  }
+}
+
+.posts {
+  padding: 0;
+
+  .image {
+    position: relative;
+    margin-bottom: 1em;
+  }
+
+  .date {
+    @include post-date;
+  }
+
+  a {
+    @include clearfix;
+    display: inline-block;
+  }
+
+  li {
+    list-style-image: none;
+    padding: none;
+  }
+
+  .excerpt {
+    font-family: $helvetica;
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+}
+
+.post {
+  .body {
+    line-height: 1.5;
+  }
+
+  .image {
+    position: relative;
+    margin-bottom: 1em;
+  }
+
+  .date {
+    @include post-date;
+  }
+
+  .day {
+    position: relative;
+    top: -12px;
+  }
+}

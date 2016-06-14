@@ -1,0 +1,12 @@
+.footer {
+  @include clearfix;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: $large-spacing;
+  min-height: $footer-height;
+  background: {
+    color: $brown;
+  }
+}
