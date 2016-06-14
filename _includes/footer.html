@@ -1,15 +1,15 @@
 <footer class="footer">
-  <h2>{{ site.title }}</h2>
+  <div class="centered">
+    <h2>{{ site.title }}</h2>
 
-  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
-  <a class="github-link" href="https://github.com/{{ include.username }}">
-    {{ include.username }}
-  </a>
+    <a class="github-link" href="https://github.com/{{ include.username }}">
+      {{ include.username }}
+    </a>
 
-  <a class="twitter-link" href="https://twitter.com/{{ include.username }}">
-    {{ include.username }}
-  </a>
-
-
+    <a class="twitter-link" href="https://twitter.com/{{ include.username }}">
+      {{ include.username }}
+    </a>
+  </div>
 </footer>
