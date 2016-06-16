@@ -9,4 +9,14 @@ I got my foot in the door of the tech industry as a designer for a large print s
 
 Anyway, I ended up with a few things I'm proud of:
 
-![Skindulgent Logo]({{ site.url }}/images/skindulgent-logo.png)
+Skindulgent logo
+----------------
+![Skindulgent Logo](/images/skindulgent-logo.png)
+
+Stub 52 logo
+------------
+![Stub 52 logo](/images/stub52-logo.png)
+
+Flux Beauty logo
+------------
+![Flux Beauty logo](/images/flux-logo.png)

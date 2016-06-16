@@ -5,7 +5,7 @@ order: 2
 icon: fa-github
 ---
 
-I tend to write a lot of developer productivity tools and small JavaScript libraries. Bash scripting and small command line utilities are a hobby of mine. I also have a few pet JavaScript libraries. I've got a small handful of Ruby gems with a sprinkling of SublimeText plugins and themes.
+I have a few pet JavaScript libraries. Bash scripting and small command line utilities are a hobby of mine. I've got a small handful of Ruby gems with a sprinkling of SublimeText plugins, themes and npm packages.
 
 Here are a few of my favorites
 
