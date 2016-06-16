@@ -1,5 +1,6 @@
 ---
 layout: page
-title: design
+title: Design
+order: 3
 icon: fa-photo
 ---

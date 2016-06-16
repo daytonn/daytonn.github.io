@@ -60,24 +60,6 @@
     }
   }
 
-  .designs-controller & {
-    .design {
-      @extend %active-tab;
-    }
-  }
-
-  .posts-controller & {
-    .blog {
-      @extend %active-tab;
-    }
-  }
-
-  .music-controller & {
-    .music {
-      @extend %active-tab;
-    }
-  }
-
   @include media($large-screen-up) {
     @include span-columns(8);
     @include omega;

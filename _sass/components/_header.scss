@@ -5,6 +5,9 @@
   _::-webkit-full-page-media, _:future, :root & {
      background-color: $brown;
   }
+  background: {
+    color: $brown;
+  }
 
   .site-title {
     @include clearfix;

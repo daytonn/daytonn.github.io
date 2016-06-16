@@ -1,5 +1,6 @@
 ---
 layout: page
-title: music
+title: Music
+order: 4
 icon: fa-headphones
 ---
