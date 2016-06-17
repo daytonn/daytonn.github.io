@@ -14,9 +14,10 @@ Nearly Endearing
 
 Justin Scovil, and Dayton Nolan a quirky duo of lo-fi amature song-writers trying to write songs they don't hate. We've met with mixed success, but there are a few gems.
 
-[<i class="fa fa-soundcloud"></i> Fox Lake Sessions Vol I](https://soundcloud.com/nearlyendearing-1/sets/fox-lake-sessions-volume-i)
 
-[<i class="fa fa-soundcloud"></i> Fox Lake Sessions Vol II](https://soundcloud.com/nearlyendearing-1/sets/fox-lake-sessions-volume-ii)
+  * [<i class="fa fa-soundcloud"></i> Fox Lake Sessions Vol I](https://soundcloud.com/nearlyendearing-1/sets/fox-lake-sessions-volume-i)
+
+  * [<i class="fa fa-soundcloud"></i> Fox Lake Sessions Vol II](https://soundcloud.com/nearlyendearing-1/sets/fox-lake-sessions-volume-ii)
 
 [<i class="fa fa-soundcloud"></i> Fox Lake Sessions Vol III](https://soundcloud.com/nearlyendearing-1/sets/fox-lake-sessions-volume-iii)
 

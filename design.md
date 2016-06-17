@@ -9,14 +9,17 @@ I got my foot in the door of the tech industry as a designer for a large print s
 
 Anyway, I ended up with a few things I'm proud of:
 
-Skindulgent logo
-----------------
-![Skindulgent Logo](/images/skindulgent-logo.png)
+<div class="design-project">
+    <h2>Skindulgent logo</h2>
+    <img src="/images/skindulgent-logo.png">
+</div>
 
-Stub 52 logo
-------------
-![Stub 52 logo](/images/stub52-logo.png)
+<div class="design-project">
+    <h2>Stub 52 logo</h2>
+    <img src="/images/stub52-logo.png">
+</div>
 
-Flux Beauty logo
-------------
-![Flux Beauty logo](/images/flux-logo.png)
+<div class="design-project">
+    <h2>Flux Beauty logo</h2>
+    <img src="/images/flux-logo.png">
+</div>
