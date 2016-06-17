@@ -51,6 +51,8 @@ icon: fa-headphones
   </ul>
 </div>
 
+---
+
 <div class="band">
   <div class="photo">
     <h2>Threewordstoliveby</h2>
