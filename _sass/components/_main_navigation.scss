@@ -73,16 +73,35 @@
     }
 
     li {
+      position: relative;
+
+      &:hover,
+      &.active {
+        &:after {
+          @include triangle(20px, $cream, up);
+          content: "";
+          position: absolute;
+          left: center;
+          margin-left: -10px;
+          bottom: 0;
+        }
+      }
+
       a {
         @include fill-parent;
-        padding-top: 5px;
-        display: block;
-        line-height: $header-height;
-        vertical-align: middle;
-        height: $header-height;
-        padding: 5px 0 0 0;
         color: $white;
+        display: block;
         font-size: 23px;
+        height: $header-height;
+        line-height: $header-height;
+        padding-top: 5px;
+        padding: 5px 0 0 0;
+        vertical-align: middle;
+
+        &:hover,
+        &.active {
+          color: $orange;
+        }
       }
     }
 
@@ -103,5 +122,12 @@
         @include active-page;
       }
     }
+  }
+}
+
+@include media($large-screen-up) {
+  .main-navigation {
+    @include span-columns(6);
+    clear: none;
   }
 }

@@ -11,6 +11,7 @@
 
   .site-title {
     @include clearfix;
+    @include fill-parent;
     display: block;
     padding: $large-spacing 0 0 $large-spacing;
   }
@@ -46,6 +47,20 @@
 
     span {
       color: $med-gray;
+    }
+  }
+}
+
+
+@include media($large-screen-up) {
+  .header {
+    .site-title {
+      @include span-columns(4);
+      padding-left: 0;
+    }
+
+    .site-description {
+      display: none;
     }
   }
 }
