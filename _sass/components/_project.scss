@@ -1,0 +1,49 @@
+.project {
+  border-bottom: $default-dashed-line;
+  padding: $large-spacing 0;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .photo {
+    position: relative;
+
+    h2 {
+      @include no-underline;
+      position: absolute;
+      left: $medium-spacing;
+      bottom: 0;
+    }
+
+    img {
+      padding: $medium-spacing;
+      padding-bottom: $large-spacing * 2;
+      box-shadow: 1px 1px 6px rgba(0, 0, 0, .75);
+      background: {
+        color: white;
+      }
+    }
+
+    caption {
+      display: none;
+    }
+  }
+}
+
+@include media($medium-screen-up) {
+  .project {
+    @include span-columns(6);
+    min-height: 250px;
+
+    &:nth-child(odd) {
+      @include omega;
+    }
+
+    .photo {
+      @include span-columns(6);
+    }
+  }
+}
+
+

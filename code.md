@@ -5,9 +5,15 @@ order: 2
 icon: fa-github
 ---
 
-I have a few pet JavaScript libraries. Bash scripting and small command line utilities are a hobby of mine. I've got a small handful of Ruby gems with a sprinkling of SublimeText plugins, themes and npm packages.
-
-Here are a few of my favorites:
+<div class="page-description">
+    <p>
+        I have a few pet JavaScript libraries. Bash scripting and small command line utilities are a hobby of mine. I've got a small handful of Ruby gems with a sprinkling of SublimeText plugins, themes and npm packages.
+    </p>
+  
+    <p>
+        Here are a few of my favorites:
+    </p>
+</div>
 
 <section class="project">
     <h3>Baptize</h3>

@@ -1,0 +1,17 @@
+.page-description {
+  @include row;
+  border-bottom: solid 1px lighten($brown, 50%);
+
+  p {
+    @include fill-parent;
+  }
+}
+
+@include media($medium-screen-up) {
+  .page-description {
+    p {
+      @include span-columns(6);
+      clear: both;
+    }
+  }
+}

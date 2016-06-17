@@ -1,44 +1,12 @@
-.page-description {
-  @include row;
-
-  p {
-    @include span-columns(6);
-  }
-}
-
-.band {
-  @include fill-parent;
-  @include row;
-
-  .photo {
-    position: relative;
-
-    h2 {
-      @include no-underline;
-      position: absolute;
-      left: $medium-spacing;
-      bottom: 0;
-    }
-
-    img {
-      padding: $medium-spacing;
-      padding-bottom: $large-spacing * 2;
-      box-shadow: 1px 1px 6px rgba(0, 0, 0, .75);
-      background: {
-        color: white;
-      }
-    }
-
-    caption {
-      display: none;
-    }
-  }
-}
-
 @include media($medium-screen-up) {
-  .band {
-    .photo {
-      @include span-columns(6);
+  .music {
+    .project {
+      min-height: 560px;
+      border-bottom: none;
+    }
+
+    .description {
+      padding-right: $large-spacing;
     }
   }
 }

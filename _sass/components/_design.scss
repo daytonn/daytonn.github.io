@@ -1,15 +1,7 @@
-.design-project {
-  text-align: center;
-
-  h2 {
-    text-align: left;
-  }
-
-  @include media($medium-screen-up) {
-    @include span-columns(6);
-
-    &:nth-child(even) {
-      @include omega;
+@include media($medium-screen-up) {
+  .design {
+    .project {
+      min-height: 450px;
     }
   }
 }

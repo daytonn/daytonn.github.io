@@ -11,7 +11,7 @@ icon: fa-headphones
   </p>
 </div>
 
-<div class="band">
+<div class="project">
   <div class="photo">
     <h2>Nearly Endearing</h2>
     <img src="/images/nearly-endearing.jpg">
@@ -51,9 +51,7 @@ icon: fa-headphones
   </ul>
 </div>
 
----
-
-<div class="band">
+<div class="project">
   <div class="photo">
     <h2>Threewordstoliveby</h2>
     <img src="/images/threewordstoliveby.jpg" alt="Matthew Flanigan, Dayton Nolan, Tim Barczack, Ed Bembinster, Chris Kladis">

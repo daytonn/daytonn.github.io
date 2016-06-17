@@ -1,19 +1,1 @@
-.project {
-  border-bottom: dashed 1px $brown;
-  padding: $large-spacing 0;
 
-  &:last-child {
-    border-bottom: none;
-  }
-}
-
-@include media($medium-screen-up) {
-  .project {
-    @include span-columns(6);
-    min-height: 250px;
-
-    &:nth-child(even) {
-      @include omega;
-    }
-  }
-}
