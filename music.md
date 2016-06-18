@@ -23,11 +23,12 @@ icon: fa-headphones
     </p>
 
     <p>
-      We recorded these sessions over 8 or so years. We did them in small, long-weekend spurts where we'd write a song or two. These are the results:
+      We recorded these sessions over 8 or so years. We did them in small, long-weekend spurts.
     </p>
   </div>
 
-  <ul>
+  <h4>Albums</h4>
+  <ul class="album-list">
     <li>
       <a href="https://soundcloud.com/nearlyendearing-1/sets/fox-lake-sessions-volume-i" target="_blank">
         <i class="fa fa-soundcloud"></i> Fox Lake Sessions Vol I
@@ -63,7 +64,12 @@ icon: fa-headphones
     </p>
   </div>
 
-  <a href="https://soundcloud.com/threewordstoliveby/sets/destroying-the-evidence-of" target="_blank">
-    <i class="fa fa-soundcloud"></i> Destroying the Evidence of Math and Science
-  </a>
+  <h4>Albums</h4>
+  <ul class="album-list">
+    <li>
+      <a href="https://soundcloud.com/threewordstoliveby/sets/destroying-the-evidence-of" target="_blank">
+        <i class="fa fa-soundcloud"></i> Destroying the Evidence of Math and Science
+      </a>
+    </li>
+  </ul>
 </div>
