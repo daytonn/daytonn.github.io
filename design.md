@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Design
+nav-title: Design
 order: 3
 icon: fa-photo
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Code
+title: My Favorite Projects
+nav-title: Code
 order: 2
 icon: fa-github
 ---
