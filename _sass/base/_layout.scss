@@ -17,23 +17,6 @@ body {
   }
 }
 
-.avatar {
-  margin-bottom: $medium-spacing;
-  img {
-    box-shadow: 0 0 2px 1px rgba($black, .65);
-  }
-}
-
-.pages-controller {
-  &.index {
-    .avatar {
-      img {
-        width: 100%;
-      }
-    }
-  }
-}
-
 .hidden {
   opacity: 0;
 }
@@ -42,7 +25,7 @@ body {
   @include outer-container;
 }
 
-main {
+.site-content {
   @include outer-container;
   display: block;
   padding: $medium-spacing;

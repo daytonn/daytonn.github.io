@@ -2,14 +2,24 @@
   background: transparent;
 
   &:after {
-    @include triangle(22px, $cream, up);
+    @include triangle(20px, $cream, up);
     content: "";
-    position: relative;
-    top: -30px;
+    position: absolute;
+    left: center;
+    margin-left: -10px;
+    bottom: 0;
   }
 
   a {
     color: $orange;
+  }
+}
+
+%active-tab {
+  background: $orange;
+
+  a {
+    color: $cream;
   }
 }
 
@@ -52,14 +62,6 @@
     }
   }
 
-  %active-tab {
-    background: $orange;
-
-    a {
-      color: $cream;
-    }
-  }
-
   @include media($large-screen-up) {
     @include span-columns(8);
     @include omega;
@@ -75,16 +77,8 @@
     li {
       position: relative;
 
-      &:hover,
       &.active {
-        &:after {
-          @include triangle(20px, $cream, up);
-          content: "";
-          position: absolute;
-          left: center;
-          margin-left: -10px;
-          bottom: 0;
-        }
+        @include active-page;
       }
 
       a {
@@ -105,20 +99,26 @@
       }
     }
 
-    .designs-controller & {
-      .design {
+    .about-page & {
+      .about-link {
         @include active-page;
       }
     }
 
-    .posts-controller & {
-      .blog {
+    .code-page & {
+      .code-link {
         @include active-page;
       }
     }
 
-    .music-controller & {
-      .music {
+    .design-page & {
+      .design-link {
+        @include active-page;
+      }
+    }
+
+    .music-page & {
+      .music-link {
         @include active-page;
       }
     }

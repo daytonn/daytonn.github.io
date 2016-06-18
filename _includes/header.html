@@ -1,28 +1,10 @@
-<header class="header">
+<header class="site-header">
   <div class="centered">
     <a class="site-title" href="{{ site.baseurl }}/" class="logo-link">
       <img src="/images/profile-image.jpg" class="profile-image" />
       <h1>Dayton<span>Nolan</span></h1>
     </a>
     <p class="site-description">{{ site.description }}</p>
-    <nav class="main-navigation">
-      {% assign sorted_pages = site.pages | sort:"order" %}
-      {% for page in sorted_pages %}
-        {% if page.title %}
-          <li class="{{ page.title | slugify }}">
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-              <i class="fa {{page.icon}}"></i>
-              {{ page.title }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-      <li class="linkedin">
-        <a href="https://www.linkedin.com/in/daytonnolan" target="_blank" class="page-link">
-          <i class="fa fa-linkedin-square"></i>
-          LinkedIn
-        </a>
-      </li>
-    </nav>
+    {% include main-navigation.html %}
   </div>
 </header>

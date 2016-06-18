@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{{ page.title | slugify }}">
+  <body class="{{ page.title | slugify }}-page">
     {% include header.html %}
-    <main>
-      <section class="content">
-        {{ content }}
-      </section>
-    </main>
+    {% include content.html %}
     {% include footer.html %}
   </body>
 </html>
