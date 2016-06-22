@@ -1,7 +1,17 @@
 @include media($medium-screen-up) {
   .design-page {
     .project {
+      @include span-columns(4);
       min-height: 450px;
+      border-bottom: none;
+      text-align: center;
+      h2 {
+        text-align: left;
+      }
+
+      &:nth-child(3) {
+        @include omega;
+      }
     }
   }
 }

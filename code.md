@@ -73,3 +73,15 @@ icon: fa-github
         <i class="fa fa-github"></i> view moses on github.com
     </a>
 </section>
+
+<section class="project">
+    <h3>CycleGroup</h3>
+    
+    <p>
+        Have you ever just wanted a hotkey to cycle the focus from one group to the next? How about simply moving a file to the opposite group? Well, now you can with CycleGroup..
+    </p>
+
+    <a href="https://github.com/daytonn/CycleGroup" class="">
+        <i class="fa fa-github"></i> view CycleGroup on github.com
+    </a>
+</section>

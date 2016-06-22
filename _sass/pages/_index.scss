@@ -1,0 +1,13 @@
+.index-page {
+  .page-description {
+    img {
+      display: block;
+      width: 150px;
+      height: 150px;
+      background-color: white;
+      padding: $small-spacing;
+      box-shadow: 0px 0px 6px rgba(0, 0, 0, .5);
+      margin-bottom: $medium-spacing;
+    }
+  }
+}

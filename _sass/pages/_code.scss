@@ -1,3 +1,9 @@
-.code-page {
-
+@include media($medium-screen-up) {
+  .code-page {
+    .project {
+      &:last-child {
+        border-bottom: dashed 1px $brown;
+      }
+    }
+  }
 }
