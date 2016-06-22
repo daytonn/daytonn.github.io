@@ -8,7 +8,7 @@ icon: fa-photo
 
 <div class="page-description">
     <p>
-        I got my foot in the door of the tech industry as a designer for a large print shop in a small town. We did everything from t-shirts to large-format vehicle wraps. They showed me the ropes with Photoshop, Illustrator, and Quark and I could do the occasional web work. The time I spent as a freelancer, I had to wear the designer hat as well as the developer's.
+        I got my foot in the door of the tech industry as a designer for a large print shop in a small town. We did everything from t-shirts to large-format vehicle wraps. They showed me the ropes with Photoshop, Illustrator, and Quark and I did the occasional web work. I also wore the designer hat when I was freelancing.
     </p>
 
     <p>
