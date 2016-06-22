@@ -61,7 +61,7 @@ icon: fa-headphones
 
   <div class="description">
     <p>
-      Threewordstoliveby was an emo in the early 2000's. This is our only full-length album, which was self-produced by Myself and Ed Bembinster.
+      Threewordstoliveby was an emo band in the early 2000's. This is our only full-length album, which was self-produced by Myself and Ed Bembinster.
     </p>
   </div>
 
