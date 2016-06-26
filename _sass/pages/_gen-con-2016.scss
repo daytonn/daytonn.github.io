@@ -1,5 +1,21 @@
 .gencon-list {
-  ul {
-    padding-left: $large-spacing;
+  @include fill-parent;
+
+  .video {
+    @include fill-parent;
+  }
+
+  iframe {
+    width: 345px !important;
+    height: 194px !important;
+  }
+}
+
+@include media($medium-screen-up) {
+  .gencon-list {
+    iframe {
+      width: 560px !important;
+      width: 315px !important;
+    }
   }
 }
