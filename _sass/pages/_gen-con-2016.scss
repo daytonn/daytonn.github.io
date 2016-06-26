@@ -13,7 +13,7 @@
 
 @include media($medium-screen-up) {
   .gencon-list {
-    iframe {
+    iframe.youtube-embed {
       width: 560px !important;
       width: 315px !important;
     }
