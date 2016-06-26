@@ -17,6 +17,3 @@ github_username:  daytonn
 
 # Build settings
 markdown: kramdown
-
-gems:
-- jekyll-haml
