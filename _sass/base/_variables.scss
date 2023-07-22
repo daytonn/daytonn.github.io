@@ -23,7 +23,7 @@ $heading-line-height: 1.2;
 // Other Sizes
 $base-border-radius: 3px;
 $base-spacing: $base-line-height * 1em;
-$small-spacing: $base-spacing / 2;
+$small-spacing: calc($base-spacing / 2);
 $base-z-index: 0;
 
 // Colors
@@ -52,7 +52,7 @@ $base-timing: ease;
 
 // Spacing
 $large-spacing: 30px;
-$medium-spacing: $large-spacing / 2;
-$small-spacing: $medium-spacing / 2;
+$medium-spacing: calc($large-spacing / 2);
+$small-spacing: calc($medium-spacing / 2);
 
 $default-dashed-line: dashed 1px $brown;
